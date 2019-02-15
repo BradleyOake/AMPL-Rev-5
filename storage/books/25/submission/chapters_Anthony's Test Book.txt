@@ -1,0 +1,136 @@
+C:\wamp64\www,-*main.css,-*.map,-*.min.css,-*.min.js,-*/bower/*
+
+Monday, April 4, 2016 - Today: 7h47m | Total: 7h47m
+  Start Time: 9:00 AM
+    9:00 AM - Completed and sent to Jamie Leebody for signature
+    9:30 AM - Setting up software on laptop for days when I will be working in my upstairs room on laptop
+    10:00 AM - WAMP setup but having issues. Solving these issues so I can start working via localhost
+    11:36 AM - WAMP localhost finally working. Have to use localhost/public/, but at least I have a local testing environment so I can start working
+    11:43 AM - Creating a Google Drive (GD) folder for us to put documents in that don't need to be in repo
+    11:45 AM - Email share links for folder sent out. Filling in "File Structure" document a little, to help/remind us all of the structure of all these files within the website. Going to continue to poke around pages and get a grasp on the code and Laravel
+    1:04 PM - Lunch break
+    1:34 PM - Back from lunch, going to work on fixing the CSS so the carousel image stays the same height to stop page from 'bobbing' up and down
+    1:48 PM - Fixed CSS, moving on to getting the privacy policy page to work
+    1:55 PM - Fixed privacy policy page. Setting up SourceTree to work straight from directory, and pushing files I changed up
+    2:14 PM - Pushed files up to repository, going to create document in GD folder to document features/issues and their status
+    3:25 PM - Received database script from Tom. Going to get database setup so we can work on all pages
+    3:27 PM - Database script done, can now work on any page on the site
+    3:30 PM - Created a new text channel in Discord for Julien and Sarah for files we edit, since they don't have access to the repo at the moment. Going to create the Contact page for the site
+    3:51 PM - Contact page done, simple for now but works. Creating log for today, since I forgot to start one this morning.
+    4:15 PM - Log created and caught up. Going to start my 'blurb' Jamie wanted each of us to write.
+    4:27 PM - Finished blurb, send it off to Jamie. Poking around site more, just getting more used to the code and structure.
+    5:06 PM - Worked on getting the register modal to show up on pages that linked to /register. This helps with redudancy as we have just one spot to update any register information, instead of multiple spots.
+    5:17 PM - Clocked out. Was just finishing getting the register modal to work.
+  End Time: 5:17 PM
+
+Tuesday, April 5, 2016 - Today: 8h08m | Total: 15h55m
+  Start Time: 8:40 AM
+    8:40 AM - Looking over document Tom uploaded of what needs to be done before the end of the month
+    8:55 AM - Pulling repo, Tom updated a few files/documents
+    8:57 AM - main.css file got overwritten from bootstrap.css because of gulp. I didn't use gulp yesterday, so I'll have to change bootstrap.css and let gulp merge it into main.css to re-enable the change I made yesterday
+    9:15 AM - Finished merging CSS files, starting work on index.blade.php to get it touched up and looking good. Fixed an erroneous HTML comment opening tag with no closing tag that was commenting out the entire bottom half of the page.
+    11:52 AM - Finished fixing up index.blade.php. Reworked entire page to be readable, added comments, fixed extra closing div tags, touched up text, fixed carousel images (Consistent size to prevent page 'jumping'!), and made subject/message sticky on contact form. Going to start working on aspiring.blade.php to fix the register button on there.
+    12:26 PM - After starting on aspiring.blade.php, noticed a lot of instances of "Ampl" instead of "AMPL". Updated all pages to have the all caps version. Continuing work on aspiring.blade.php until lunch in a couple minutes.
+    12:30 PM - Lunch break.
+    1:00 PM - Back from lunch and ready to rock. Going to continue work on the aspiring.blade.php page.
+    1:30 PM - aspiring.blade.php register/submit buttons have lead me to work on the modals that these buttons lead to. Formatting the modals and making the code readable, with some added comments.
+    2:54 PM - Formatted aspiring.blade.php, all of the modals, and footer.blade.php. Made code more readable, added code comments, and fixed spelling errors on pages. Added a link back to login on the password_reset modal. Made Facebook icon in footer actually link to AMPL Facebook page. Made the two buttons on the aspiring page link to the register modal. Tom hopped into Discord, so we are all talking to him about things we've been doing today and some things we're having issues with.
+    Update - Working on getting the social logins to work with Tom. All of us are having issues and can't get it to load.
+    4:13 PM - Social logins fixed. Working on some icons for the modals and polishing them up to hopefully have them fully done.
+    4:50 PM - Fixed the modals, updated icon on password_reset form. Time for our meeting.
+    5:18 PM - Meeting over. Done for the day!
+  End Time: 5:18 PM
+
+Wednesday, April 6, 2016 - Today: 7h30m | Total: 23h25m
+  Start Time: 9:00 AM
+    9:00 AM - Going to work on getting the registration modal working. This means doing validation on the fields in the form.
+    11:25 AM - Poking through all the files and finding out where stuff actually occurs. Learned some Laravel, took a while to grasp that. Working inside the register.js files now to valiate all user input on the registration modal form.
+    11:41 AM - Changed all passwords to require 6 characters. Doing some final testing on modal fields, then going to work on index.blade.php making it look better.
+    1:04 PM - Fixed index.blade.php to look a bit better. Changed the 'black belt' in the middle of the page to be a green instead. I think it helps to break up the sections of the page, so left the belt in. Changes some of the icons, fixed carousel to stay in the middle of the 'slideshow'. Going for lunch.
+    1:34 PM - Going to make the header fixed, and tone down some of the animations on index.blade.php.
+    2:36 PM - Also did some animation/front-end work on aspiring.blade.php and about.blade.php. Icons will still animate, and buttons ONLY on hover. Removed a lot of other animation, as it just gets too busy with a lot of animation going on.
+    4:49 PM - Super busy today. Updated a lot of pages code to make it more readable for us to help with coding in the next month. Fixed a lot of over-animation on index, aspiring, and about. Fixed some code in the cart that had missing or wrong starting/closing tags. Edited the footer to downsize it a bit, and added the "Partners" link to it (This page is just an empty template for now). Header is now fixed and scrolls with you down the page. Did a lot of 'research', learning the file structure more and some of the frameworks we're using. Did a final adjustment on aspiring page to tone-dwon the animations a bit more, so now it doesn't overwhelm the user when they load that page.
+    4:49 PM - Writing notes for meeting. Tom said he cannot attend tonight, and told us to just post our scrum notes in the #meetings text channel in Discord.
+    5:00 PM - Posted scrum notes, logging off for the day!
+  End Time: 5:00 PM
+
+Thursday, April 7, 2016 - Today: 7h50m | Total: 31h15m
+  Start Time: 8:45 AM
+    8:45 AM - Starting work on the bookstore and buybook pages. Want to get them touched up and looking nice. Formatting the buttons, adding more functions into cartController.js, and making the buttons on bookpage link to the correct tab/div on buybook. Standardized buttons and tooltips on buybook page. Adding functionality of the "View xx" when you hover the cover on all pages. Toning down button animations and other animations on all 'bookstore' pages, to be more in line with the rest of the sites level of animation.
+    12:54 PM - Learned some of the cartController code. Touched up all 'bookstore' pages. Finished everything said above. Heading for lunch, then going to work on either the News page or making the emails we need.
+    1:03 PM - Heading for lunch.
+    1:33 PM - Back from lunch.
+    2:03 PM - Fixed occurences of "News Room" to "Newsroom", and "BookStore" to "Bookstore". Added inline CSS on layout and footer to make the footer stick to the bottom of the page.
+    2:24 PM - Checked the register modal against some basic SQL stuff like DROP DATABASE. Seems secure from what I tried. Going to work on testing the login modal.
+    3:12 PM - Verified all email logging works. Modal now doesn't bug out after unsuccesful login. Started work on social logins but some stuff is still wrong on bookstore pages so going to finish those up for good.
+    4:20 PM - Julien did some comment stuff on the bookstore pages, so I poked around the news section testing the comments and such while waiting for him to do a little touch up. I reformatted all the purchasing icons on bookstore and bookpage. They are now dynamic in both showing up and their positioning if a book doesn't have certain formats. Going to add my test hardcover book to the db script to help with future testing of a book with only hardcover as an option.
+    4:25 PM - Pushed new script to the repo. Going to start merging over the finished bookstore pages to the authenticated versions as well.
+    5:05 PM - Tried to make tabs on buybook dynamic so they don't show if there's nothing of that type to buy. It works except for if a book has ONLY physical version, then it just doesn't display any buying options. Narrowed down to it not creating the div for all the stuff, going to try and figure it out tomorrow.
+  End Time: 5:05 PM
+
+Friday, April 8, 2016 - Today: 7h48m | Total: 39h03m
+  Start Time: 9:00 AM
+    9:00 AM - Going to continue debugging the dynamic tabbing from last night.
+    10:25 AM - Fixed the issue with the tabbing. Tabs were hidden except for the Electronic tab by default. Added logic to add the 'in' class to .fade so that the tab will show if it's the active tab upon loading. Going to work on switching over buybook.blade.php to buybook_authenticated.blade.php.
+    12:15 PM - buybook_authenticated.blade.php has been fully updated as well. Added some more test books and authors to the db. Fixed some linking issues on all bookstore pages, everything now links correctly. Fixed the rating system to always display the decimal place as it looked weird seeing "5 / 5.0" instead of "5.0 / 5.0".
+    1:00 PM - Tested a bunch of different SQL injections against all the forms on our site (Register, login, comments). It seems we are protected against all of these, the page just returns an "Internal Server Error", but nothing in the database is breached. The rating system on bookpage shows the average rating on the comment ratings, Julien was working on that, so I let him know.
+    1:03 PM - Lunch break.
+    1:33 PM - Back from lunch.
+    2:24 PM - Worked on getting the comments on bookpage to work correctly. We had missing divs, and then the FB comment section ceased working as well. Julien took over on this, as he's done more work with this then I have. I am going to take a crack at getting social logins to work on the first time. This problem seems to be hard to replicate as well, it happens everytime I re-open the website the next day and try to do the login, but works the first time after that.
+    3:29 PM - A lot of research didn't really produce much. I don't know Facebook SDK, so it's kind of hard to diagnose the issue. And on top of that, the reproduction rate is superrrrrr low (As Brad said yesterday, it only happened once out of the 50 times he tried). I think it's something to do with the session perhaps, as it seemingly happens the first time it's attempted every day, so I believe the session expires overnight, so you have to do the double login again the next day.
+    3:52 PM - Changed titles on pages that needed it. Added logic in buybook.blade.php to check if the user is logged in or not, for purposes of the "Buy Now" buttons. There is no need for buybook_authenticated.blade.php anymore, which is super good as we only have to edit one file now for any changes to buybook.
+    4:20 PM - Stopped for meeting with Jamie. Added book_status 5 of "Upcoming" in db. Tried to fix the bookstore not showing stuff for "Electronic Only", but it's not working. Will take a look again on monday.
+    5:03 PM - Meeting ended, it's the weekend!
+    5:13 PM - Fixed the issue with "Electronic Only" and "Audio Only" books. The files in the structure itself were named wrong - eg I had "1_txt.txt" instead of "6_txt.txt".
+    5:18 PM - Wrote scrum notes, actually done this time! Have a great weekend!
+  End Time: 5:18 PM
+
+=================================================================
+
+Monday, April 11, 2016 - Today: 8h7m | Total: 47h10m
+  Start Time: 8:00 AM
+    8:00 AM - Going to look over our worklist and see what needs to be done this week that's most important.
+    9:23 AM - Fixed links on the carousel images. navbar.blade.php had some missing tags/poorly tabbed code. Fixed the aspiring page to be more smooth upon loading, regarding the animations. Navbar now also displays additional links for admins. Made the "Edit" button on the comment section of books only appear for the users own comment. Starting now on getting a modal to popup for this edit button.
+    10:57 AM - Have had modal popping up fine for a while now. Having an issue where the comment has a whole bunch of whitespace in it though, and trying to figure out how to trim all of it with Laravel is hard.
+    12:05 PM - Done for my "morning shift". Will be back in one hour.
+  End Time: 12:05 PM - 4h5m
+  --------------------------------------------------
+  Start Time: 1:03 PM
+    1:03 PM - Back. I guess I touched something that broke the registration modal, so I reverted my changes. This edit comment modal is taking longer then expected, going to give it another go for maybe 15 or so minutes and if I can't get it, I'll move on for now.
+    2:31 PM - Cannot get the edit comment modal working.. It just keeps giving a "500 (Internal Server Error)".. Super annoying, going to move on for now since I'm not making any progress.. Helping Brad with the logic for the buybook page so once a user buys an electronic copy they get access to all copies.
+    3:17 PM - Helped Brad with the logic for the new buybook setup. Helped Julian get started on trying to get our edit comment modal to work. Going to fix the Newsroom HTML chars showing on page.
+    3:33 PM - After looking up some Laravel documentation, got the Newsroom page to not show HTML chars on the page, and actually make them HTML in code. Newsroom page now works fine.
+    4:53 PM - Got the edit comment modal finally working. Have to change error message tomorrow to let user know they must change their comment before submitting the edit. Added the new user type "Website Controller" to the database script.
+    4:58 PM - Writing scrum notes.
+    5:05 PM - Finished. Tom just got us to post scrum notes in the #meetings text channel. Done for the day.
+  End Time: 5:05 PM - 4h2m
+
+Tuesday, April 12, 2016 - Today: 7h30m | Total: 54h40m
+  Start Time: 9:00 AM
+    9:00 AM - Looking over worklist. Reading the others meeting notes just to help keep myself on top of everything going on. Going to start work on finishing the edit modal like I said I would in meeting notes.
+    10:26 AM - Fixed the edit modal error message. Got the system for editing rating working as well. Moved on to trying to get the "Delete" comment button to work, but having some issues with the illustrious '500 Internal Server Error' again... Taking a quick break so I don't bog myself down like yesterday going to hard on this one error. Will get back to it in a few minutes.
+    12:06 PM - Formatted the code inside of comment_authenticated so it's easier to code in that file. The code was hideously laid out, and had copies of functions, so things would run twice. Julien said he would work on it after he was done with the news page, as he's the one that did the coding to make the edit modal be able to be used on both the book and news pages. I am going to pick up his work on getting the books to show for authors under their account page.
+    12:38 PM - Going for lunch.
+    12:57 PM - Back from lunch, going to try and get user summary to work.
+    1:36 PM - User summary page needs some stuff in the routes file. I don't know near enough about this file to actually create the code needed.
+    2:34 PM - Spent some time learning some more of the frameworks. After Brad uploaded his changed bookstore pages I did some visual editing of those pages. Working on visual edits to the buybook page.
+    3:44 PM - Made the buy book page way more visually appealing. Helped format the code a bit to help the readability of it. Posted to you (Jamie) a question about a maximum for the physical copies input box.
+    4:22 PM - Trying to work on not letting the user submit the order of copies for physical books if the amount of copies are invalid. Jamie got on so we are doing a meeting right now.
+    5:00 PM - Writing scrum notes and emailing Jamie my end-of-day email. Going to meetup with the guys tomorrow morning and spend time doing this quote for the print shop website.
+  End Time: 5:00 PM
+
+Wednesday, April 13, 2016 - Today: 7h26m | Total: 62h06m
+  Start Time: 9:00 AM
+    9:00 AM - Going to take a look over the user pages now that Tom has uploaded them for us.
+    10:34 PM - Worked on getting the user summary page fully functional and looking good. Going to work on the pages that are linked from this page, getting them fully functional as well and working with our new db.
+    1:13 PM - Fixed the profile page for the user pages. Got it looking visually appealing. Did work to ensure all data entered on profile page will be valid, and updated password length requirement rules. Started work on the transactions page, but Brad took over on that page. Started on the submission user page, but going for lunch.
+    1:42 PM - Back from lunch. Going to finish up the submission page and then work on the rest of the user pages.
+    2:46 PM - Worked on getting the submission page to work and allow users to upload their submissions. Everything works, including the database being updated, but then in jQuery.js:5114 there is an error, 'Uncaught TypeError: elem.replace is not a function'. Going to have to try and find out what to fix there to get the page fully working/reloading after a submission. All 3 of us are now working on the quote for Village Print Shop as per Jamie's request.
+    4:25 PM - Done with the quote for The Village Print Shop. We came up with a quote of $600 for it; we obviously have to talk this over with Jamie and make our quote document look better. I omitted the time allotments for each job from the 'official' quote document, although I have that time information written down elsewhere. This can be included in the document if wanted, I just felt it was better to leave it out for now. Going to work on finalizing this submission page to hopefully get it fully working before today is over.
+    4:56 PM - Cannot get this "elem.replace" error fixed.. Going to ask Tom about it next time he is on, hopefully he can help fix it. It's inside of a lot of pre-written JS code from what I can tell, and researching offered no assistance to this error. Signing off for the day!
+  End Time: 4:56 PM
+
+Thursday, April 14, 2016 - Today: hm | Total: hm
+  Start Time: 9:00 AM
+    9:00 AM - Going to look into getting this submissions page fully working. Have to fix this elem.replace error I've been getting, and then the page should be good to go.
+    9:34 AM - Cannot find a solution to this error. Have posted the question/issue to Tom, who can hopefully help us fix it. I don't want to spend/waste more time on this single page, so I'm going to move on for now. 

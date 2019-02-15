@@ -1,0 +1,62 @@
+/* The starting CSS styles for the enter animation */
+.remove-button.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+}
+
+/* The finishing CSS styles for the enter animation */
+.remove-button.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+/* now the element will fade out before it is removed from the DOM */
+.remove-button.ng-leave {
+  transition:0.5s linear all;
+  opacity:1;
+}
+.remove-button.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+/*
+.cart.ng-hide {
+  transition:2s linear all;
+  opacity:0;
+}*/
+
+/* when hiding the picture */
+.cart.ng-hide-add         { animation:0.5s lightSpeedOut ease; }
+
+/* when showing the picture */
+.cart.ng-hide-remove      { animation:0.5s lightSpeedIn ease; }
+
+/* ANIMATIONS (FROM ANIMATE.CSS) ======================== */
+/* flip in */
+
+/* light speed out */
+@keyframes lightSpeedOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+@keyframes lightSpeedOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+

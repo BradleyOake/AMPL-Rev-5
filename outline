@@ -1,0 +1,30 @@
+data type {
+
+    comments
+        name
+        text
+        date
+
+        (calculated fields)
+        voteup = true
+        votedown = true
+        report = true
+        owner(means can edit & delete, so can admin)
+    
+ }
+insert comment
+
+
+
+separate cart from other controllers
+
+
+
+{{ name }}   {{ id }} {{ if reported }}  {{ if(liked) else if(not liked)}}
+{{ text }}
+
+if reported
+
+if current user = reported
+if aggree == 1 or if == 2
+set commentagree color
